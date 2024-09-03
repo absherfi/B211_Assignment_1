@@ -5,4 +5,6 @@ First I started by creating the Car class. In this class, the attributes include
 
 Next, I was tasked with creating a Seller class. The attributes in this class are name, rating, and the inventory. The 2 methods in this class are 'Buy' and 'Sell'. The 'Buy' method takes a car that is not currently in the inventory as the input and adds that car to the Seller's inventory. The 'Sell' method takes a car in the Seller's inventory as the input and removes it from the inventory.
 
-The first parameter I added was to the '__init__' method of the 'Car' class. This allows for better error handling if there is no data in either the accident_or_damage or price attribute.
+After the 2 classes were created, I imported the csv file to create a virtual database of Sellers and their Cars.
+
+I included default values to the '__init__' method of the 'Car' class for the attributes 'accident_or_damage' and 'price'. The addition of default values allows for better error handling if there is no data in either the accident_or_damage or price attribute.
